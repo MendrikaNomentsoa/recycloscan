@@ -1,4 +1,4 @@
-# ♻️ RecycloScan
+# ♻️ Recyclon'AI
 
 > Application web de tri intelligent des déchets par IA — destinée aux écoles et entreprises en Afrique.
 
