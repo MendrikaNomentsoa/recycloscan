@@ -13,8 +13,8 @@
 
 | Projet | Description | Lien |
 |---|---|---|
-| **recycloscan-backend** | API REST Spring Boot + Gemini Vision | [Voir le repo →](https://github.com/MendrikaNomentsoa/recycloscan-backend) |
-| **recycloscan-frontend** | Interface React + WebRTC | [Voir le repo →](https://github.com/MendrikaNomentsoa/recycloscan-frontend) |
+| **recyclonai-backend** | API REST Spring Boot + Gemini Vision | [Voir le repo →](https://github.com/MendrikaNomentsoa/recyclonai-backend) |
+| **recyclonai-frontend** | Interface React + WebRTC | [Voir le repo →](https://github.com/MendrikaNomentsoa/recyclonai-frontend) |
 
 ---
 
@@ -57,11 +57,11 @@ L'utilisateur scanne un déchet via sa caméra. Google Gemini Vision identifie l
 
 ## 🛠️ Stack technique
 
-### Backend — [recycloscan-backend](https://github.com/MendrikaNomentsoa/recycloscan-backend)
+### Backend — [recycloscan-backend](https://github.com/MendrikaNomentsoa/recyclonai-backend)
 Java 21 · Spring Boot 4.1 · Spring Security · JWT
 Spring Data JPA · PostgreSQL · Google Gemini Vision API
 
-### Frontend — [recycloscan-frontend](https://github.com/MendrikaNomentsoa/recycloscan-frontend)
+### Frontend — [recycloscan-frontend](https://github.com/MendrikaNomentsoa/recyclonai-frontend)
 React 19 · Vite · Tailwind CSS · Recharts · Axios · WebRTC
 
 ---
@@ -76,7 +76,7 @@ React 19 · Vite · Tailwind CSS · Recharts · Axios · WebRTC
 
 ### Backend
 ```bash
-git clone https://github.com/MendrikaNomentsoa/recycloscan-backend.git
+git clone https://github.com/MendrikaNomentsoa/recyclonai-backend.git
 cd recycloscan-backend
 cp src/main/resources/application-example.properties src/main/resources/application.properties
 # Remplir les valeurs dans application.properties
@@ -85,7 +85,7 @@ cp src/main/resources/application-example.properties src/main/resources/applicat
 
 ### Frontend
 ```bash
-git clone https://github.com/MendrikaNomentsoa/recycloscan-frontend.git
+git clone https://github.com/MendrikaNomentsoa/recyclonai-frontend.git
 cd recycloscan-frontend
 npm install
 npm run dev
